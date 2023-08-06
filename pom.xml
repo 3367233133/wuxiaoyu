@@ -10,17 +10,17 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.niuma</groupId>
-    <artifactId>binapi</artifactId>
+    <artifactId>rainapi</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>binapi-backend</module>
-        <module>binapi-gateway</module>
-        <module>binapi-interface</module>
-        <module>binapi-third-party</module>
-        <module>binapi-order</module>
-        <module>binapi-common</module>
+        <module>rainapi-backend</module>
+        <module>rainapi-gateway</module>
+        <module>rainapi-interface</module>
+        <module>rainapi-third-party</module>
+        <module>rainapi-order</module>
+        <module>rainapi-common</module>
     </modules>
 
     <properties>
@@ -139,7 +139,7 @@
         </dependency>
         <dependency>
             <groupId>com.niuma</groupId>
-            <artifactId>binapi-client-sdk</artifactId>
+            <artifactId>rainapi-client-sdk</artifactId>
             <version>0.0.1</version>
         </dependency>
         <!--        https://github.com/alibaba/easyexcel-->
